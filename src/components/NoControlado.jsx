@@ -11,13 +11,13 @@ const NoControlado = () => {
 
 		const data = new FormData(form.current)
 		const {title, description, state} = Object.fromEntries([...data.entries(),
-
-		])
+])
 		
 		if (!title.trim()|| !description.trim() || !state.trim()) return setError ("Todos los campos son obligatorios")
 			console.log(title, description, state)
 
 	}
+	
 	// document.addEventListener('submit',(evento) => {
 	// 	evento.preventDefault()})
 	return (

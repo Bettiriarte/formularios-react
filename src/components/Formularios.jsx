@@ -85,7 +85,7 @@ const Formularios = ({addTodo}) => {
             checked={priority}
             onChange={handleChange}
           />
-          <label htmlFor="inputcheck">mantener datos</label>
+          <label htmlFor="inputcheck">prioritario</label>
         </div>
 
         <button type="submit" className="btn btn-primary">Agregar Todo</button>
